@@ -1,1 +1,11 @@
 # buttons-rescue
+-Added README
+-added index.html
+-added style.css
+-added image of buttons
+-copy and pasted required code
+-took 2 before picks of the web page
+-fixed 8 issues, spelling mistakes, style issues, added link actions, added restored by name
+-commited and pushed
+-took after pic
+-committed and pushed
