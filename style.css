@@ -1,16 +1,25 @@
-body { background: #fff; font-family: "Nunito", sans-serif; }
-.container { max-width: 52rem; margin: 0 auto; padding: 2rem 1rem; }
+body {
+  background: #fff;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
 
 .tagline {
   color: #a10680;
   font-size: 1.25rem;
 }
 
-.storey {
+.story {
   border: 3px solid #9a6a42;
   background: #f8eee2;
   padding: 1rem 1.25rem;
   border-radius: 0.75rem;
+  margin-bottom: 1rem;
 }
 
 .photo {
@@ -18,11 +27,65 @@ body { background: #fff; font-family: "Nunito", sans-serif; }
   height: 28rem;
   object-fit: cover;
   border-radius: 0.75rem;
+  margin-bottom: 1rem;
+}
 
 .urgent {
   border-left: 0.5rem solid #b42318;
   background: #fff0ed;
   padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
 }
 
-.credits { margin-top: 2rem; color: #5f554d; }
+.credits {
+  margin-top: 2rem;
+  color: #5f554d;
+}
+
+a {
+  color: #a10680;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #6c0455;
+  text-decoration-thickness: 2px;
+}
+
+a:active {
+  color: #400233;
+  transform: translateY(1px);
+}
+
+
+a.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #a10680;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
+  transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
+}
+
+a.btn:hover {
+  background-color: #800566;
+  color: #ffffff;
+  box-shadow: 0 5px 12px rgba(161, 6, 128, 0.3);
+  transform: translateY(-2px);
+}
+
+a.btn:active {
+  background-color: #5f044c;
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+a:focus-visible {
+  outline: 3px solid #f2a2e0;
+  outline-offset: 3px;
+}
